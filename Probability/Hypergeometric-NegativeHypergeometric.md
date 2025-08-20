@@ -62,10 +62,10 @@ P(X = k) = \frac{{k+w-1 \choose k}{N-w-k \choose K-k}}{N \choose K}
 The classical way of obtaining the distribution is through direct application of the hypergeometric distribution by requiring the first $(k+w-1)$ draws to include exactly $k$ successes. Then, one multiplies this probability by the probability that the last selection is a failure.
 
 ```math
-P(X = k) = \frac{{K \choose k}{N-K \choose w-1}}{N \choose k+w-1} \cdot \frac{N-K-(w+1)}{N-(k-w-1)}
+P(X = k) = \frac{{K \choose k}{N-K \choose w-1}}{N \choose k+w-1} \cdot \frac{N-K-(w-1)}{N-(k+w-1)}
 ```
 
-where the rightmost probability comes from having $N-K-(w+1)$ available failure elements out of a total $N-(k-w-1)$ remaining. After doing some algebra, one can arrive at the standard form of the distribution.
+where the rightmost probability comes from having $N-K-(w-1)$ available failure elements out of a total $N-(k+w-1)$ remaining. After doing some algebra, one can arrive at the standard form of the distribution.
 
 There is, however, another way to construct the distribution that results in the standard form of the pmf without the need for algebra.
 
