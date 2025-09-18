@@ -1,6 +1,6 @@
 # Binary Logic
 
-Once upon a time I was in a Mathematical Physics lecture... the professor said something along the lines "P if and only if Q" means you have to prove "P implies Q" and "Q implies P".
+Once upon a time I was in a Mathematical Physics lecture when the professor said something along the lines "P if and only if Q" means you have to prove "P implies Q" and "Q implies P".
 
 ```math
 \textnormal{(\textit{P if and only if Q}) means } (P \iff Q) \textnormal{ which means } ((P \implies Q) \land (P \impliedby Q))
@@ -12,7 +12,9 @@ But this sounded somewhat off to me. The use of the double arrow seemed to mean 
 \textnormal{(\textit{P if and only if Q}) to mean } ((P \implies Q) \land (¬P \implies ¬Q))
 ```
 
-I then took it upon myself to understand if and how these two interpretations of the statement were connected. More generally, I was interested in understanding the full implications of logical equivalence. The examples I had worked with seemed to indicate logical equivalence meant two statements would always share the same truth value, knowing the state of one proposition would be definitive to know the state of the other. The overall goal was to show if the following was always the case
+On the other hand, the double arrow did communicate the intuition of "P implies Q" and "Q implies P".
+
+I then took it upon myself to understand if and how these two interpretations of the statement were connected. More generally, I was interested in understanding the full implications of logical equivalence. From past experiences, logical equivalence seemed to mean that two statements would always share the same truth value, knowing the state of one proposition would be definitive to know the state of the other. The overall goal was to show if the following was always the case
 
 ```math
 \begin{aligned}
@@ -27,13 +29,13 @@ Q \implies P \\\\
 
 ## Contrapositives
 
-I had some experience working with contrapositives because they showed up in some proofs I had learned before. I knew
+The implication of a contrapositive
 
 ```math
 (P \implies Q) \implies (¬Q \implies ¬P)
 ```
 
-Which can be readily proved because $¬Q$ and $P$ coexisting would be a contradiction to the (assumed true) $P \implies Q$. So a truth statement implies the truth of its contrapositive. Notice that we are not assuming anything about $P$ or $Q$ individually, but rather we are discussing their relation. One can apply the same argument to a contrapositive as the prior known, that is
+is readily proven because $¬Q$ and $P$ coexisting would be a contradiction to the (assumed true) $P \implies Q$. So a truth statement implies the truth of its contrapositive. Notice that we are not assuming anything about $P$ or $Q$ individually, but rather we are discussing their relation. One can apply the same argument to a contrapositive as the prior known, that is
 
 ```math
 (¬Q \implies ¬P) \implies (¬(¬P) \implies ¬(¬Q))
