@@ -94,4 +94,4 @@ Q \implies P \\\\
 \end{aligned}
 ```
 
-Only two are independent of each other. One needs to prove either $(P \implies Q)$ or $(¬Q \implies ¬P)$ and either $(Q \implies P)$ or $(¬Q \implies ¬P)$. Now it becomes clear that interpreting "P if and only if Q" to mean "P implies Q" and "False P implies False Q" is equivalent to interpreting it as "P implies Q" and "Q implies P". They contain the same information.
+Only two are independent of each other. One needs to prove either $(P \implies Q)$ or $(¬Q \implies ¬P)$ and either $(Q \implies P)$ or $(¬P \implies ¬Q)$. Now it becomes clear that interpreting "P if and only if Q" to mean "P implies Q" and "False P implies False Q" is equivalent to interpreting it as "P implies Q" and "Q implies P". They contain the same information.
