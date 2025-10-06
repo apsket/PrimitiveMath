@@ -3,7 +3,7 @@
 Once upon a time I was in a Mathematical Physics lecture when the professor said something along the lines "P if and only if Q" means you have to prove "P implies Q" and "Q implies P".
 
 ```math
-\textnormal{(\textit{P if and only if Q}) means } (P \iff Q) \textnormal{ which means } ((P \implies Q) \land (P \impliedby Q))
+\textnormal{(\textit{P if and only if Q}) means } (P \iff Q) \textnormal{ which means } ((P \implies Q) \land (Q \implies P))
 ```
 
 But this sounded somewhat off to me. The use of the double arrow seemed to mean something different than the English sentence. Intuitively, I understood the sentence "P if and only if Q" to mean "P implies Q" and "False P implies False Q", that is
@@ -94,4 +94,4 @@ Q \implies P \\\\
 \end{aligned}
 ```
 
-Only two are independent of each other. One needs to prove either $(P \implies Q)$ or $(¬Q \implies ¬P)$ and either $(P \impliedby Q)$ or $(¬P \impliedby ¬Q)$. Now it becomes clear that interpreting "P if and only if Q" to mean "P implies Q" and "False P implies False Q" is equivalent to interpreting it as "P implies Q" and "Q implies P". They contain the same information.
+Only two are independent of each other. One needs to prove either $(P \implies Q)$ or $(¬Q \implies ¬P)$ and either $(Q \implies P)$ or $(¬Q \implies ¬P)$. Now it becomes clear that interpreting "P if and only if Q" to mean "P implies Q" and "False P implies False Q" is equivalent to interpreting it as "P implies Q" and "Q implies P". They contain the same information.
