@@ -108,8 +108,16 @@ This repository is designed for:
 
 - Deep conceptual review of core mathematical ideas
 - Strengthening reasoning ability in abstract settings
-- Building intuition for mathematical physics, statistics, and modeling
 - Connecting formal mathematics with computational thinking
+- Structured thinking about uncertainty and inference
+- Translation of abstract math into applied system behavior
+
+It is intended as a complement to technical projects in:
+
+- Machine learning
+- Quantitative research
+- Data-driven decision systems
+- Computational modeling
 
 ---
 
