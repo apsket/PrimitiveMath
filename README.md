@@ -4,6 +4,8 @@ A repository focused on the foundations of mathematical reasoning through first 
 
 Rather than presenting mathematics as a finished system, this project reconstructs it from primitive ideas: logic, counting, structure, and probability. The goal is to make familiar results feel *derived*, not *declared*.
 
+The emphasis is not on mathematics as computation, but on mathematics as inference design—how conclusions remain valid under transformation, uncertainty, and abstraction.
+
 ---
 
 ## Core Philosophy
@@ -61,6 +63,29 @@ Probability is not randomness first, but *structured counting under constraints*
 
 ---
 
+### 4. Case Studies — Applied Reasoning in Real Systems
+
+This section bridges mathematical reasoning with real-world inference systems in:
+
+- Machine learning systems
+- Statistical modeling and data science
+- Finance and risk reasoning
+- Sequential decision processes (e.g. sports analytics, reinforcement learning analogues)
+
+Each case study is structured as:
+
+> System setup → implicit assumptions → reasoning failure mode → corrected inference structure → system-level implication
+
+Example topics:
+
+- Base-rate neglect in classification systems (medical test paradox)
+- Hallucination as decoupled conditional inference (AI systems)
+- Correlation instability under regime change (finance)
+- Conditional misinterpretation in win probability models (sports analytics)
+- Aggregation bias and Simpson’s paradox in metrics systems
+
+---
+
 ## Writing Style
 
 Each entry follows a consistent approach:
@@ -68,8 +93,10 @@ Each entry follows a consistent approach:
 - Start from intuition or ambiguity
 - Formalize the structure gradually
 - Derive results from minimal assumptions
+- Expose hidden assumptions or conditional dependencies
 - Highlight where interpretation matters
-- Avoid treating formulas as “given”
+- Derive correct inference behavior from first principles
+- Map implications to real-world systems
 
 Mathematics here is written as an unfolding argument, not a reference sheet.
 
