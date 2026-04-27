@@ -142,6 +142,6 @@ Future directions include:
 
 This is not a textbook or lecture notes collection.
 
-It is a reconstruction of mathematical ideas, where every definition is treated as something that could have been otherwise.
+It is a structured reconstruction of mathematical reasoning as a system for reliable inference under uncertainty, with explicit attention to where and why that inference breaks in real-world applications.
 
 ---
