@@ -1,6 +1,6 @@
 # PrimitiveMath
 
-A repository focused on the foundations of mathematical reasoning through first principles, with an emphasis on clarity of structure, logical construction, and conceptual inevitability.
+A repository exploring mathematical reasoning from first principles, with a focus on building intuition for logic, probability, and structure as they apply to real-world inference problems.
 
 Rather than presenting mathematics as a finished system, this project reconstructs it from primitive ideas: logic, counting, structure, and probability. The goal is to make familiar results feel *derived*, not *declared*.
 
